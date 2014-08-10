@@ -3,10 +3,12 @@ require 'sinatra/config_file'
 require 'sinatra/subdomain'
 require 'haml'
 
-require 'dotenv'
-Dotenv.load
-
 config_file 'config.yml'
+
+unless ENV['RACK_ENV'] == 'production'
+  require 'dotenv'
+  Dotenv.load
+end
 
 subdomain do
   get '/' do
