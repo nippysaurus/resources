@@ -1,0 +1,13 @@
+subdomains:
+  ruby:
+    bg_color: red
+    logo_img: public/logos/ruby.png
+    resources:
+      - title: Ruby Lang
+        url: https://www.ruby-lang.org/en/
+  node:
+    bg_color: green
+    logo_img: public/logos/node.png
+    resources:
+      - title: Node
+        url: http://nodejs.org
