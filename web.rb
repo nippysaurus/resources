@@ -2,6 +2,7 @@ require 'sinatra'
 require 'sinatra/config_file'
 require 'sinatra/subdomain'
 require 'haml'
+require 'digest/md5'
 
 config_file 'config.yml'
 
@@ -14,6 +15,8 @@ subdomain do
   get '/' do
     redirect "http://#{ENV["DOMAIN"]}" unless settings.subdomains.has_key? subdomain
     @resource = settings.subdomains[subdomain]
+    expires (60*60*24), :public, :must_revalidate
+    etag Digest::MD5.hexdigest(@resource.to_s)
     haml :resources
   end
   get '/theme.css' do
