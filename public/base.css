@@ -1,6 +1,5 @@
 html,
 body {
-  height: 100%;
   padding: 0;
   margin: 0;
 }
@@ -13,7 +12,7 @@ body {
 header,
 section.resources,
 footer {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 header h1 {
@@ -31,13 +30,14 @@ header h1 img {
 
 .resource {
   display: block;
-  margin-bottom: 15px;
-  background-color: rgba(0,0,0,0.1);
-  padding: 15px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
 }
 
-.resource:hover {
-  background-color: rgba(0,0,0,0.2);
+.resource:last-child {
+  margin-bottom: 0;
 }
 
 .resource img {
@@ -46,8 +46,9 @@ header h1 img {
 }
 
 .resource h2 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .clear {

@@ -16,7 +16,6 @@
           = @resource["heading"]
     %section.resources
       .container
-        = @resource
         - @resource["resources"].each do |resource|
           %a.resource{href: '#'}
             %img{src: resource["screenshot_img_src"]}
@@ -25,6 +24,3 @@
             %p
               = resource["description"]
             .clear
-    %footer
-      .container
-        TODO
