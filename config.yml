@@ -24,6 +24,47 @@ subdomains:
         description: An awesome weekly podcast discussing everything Ruby related.
         screenshot_img_src: screenshots/ruby/ruby-rogues.png
         url: http://rubyrogues.com/
+      - title: rubyflow
+        description: 
+        screenshot_img_src: screenshots/ruby/rubyflow.jpg
+        url: http://www.rubyflow.com
+      - title: afreshcup
+        description: 
+        screenshot_img_src: screenshots/ruby/afreshcup.jpg
+        url: http://afreshcup.com
+      - title: railstips
+        description: 
+        screenshot_img_src: screenshots/ruby/railstips.jpg
+        url: http://www.railstips.org
+      - title: planetrubyonrails
+        description: 
+        screenshot_img_src: screenshots/ruby/planetrubyonrails.jpg
+        url: http://planetrubyonrails.com
+      - title: ruby5
+        description: 
+        screenshot_img_src: screenshots/ruby/ruby5.jpg
+        url: http://ruby5.envylabs.com
+      - title: greenruby
+        description: 
+        screenshot_img_src: screenshots/ruby/greenruby.jpg
+        url: http://greenruby.org/
+      - title: Monkey and Crow
+        description: 
+        screenshot_img_src: screenshots/ruby/monkeyandcrow.jpg
+        url: http://monkeyandcrow.com
+      - title: Ruby Weekly
+        description: 
+        screenshot_img_src: screenshots/ruby/rubyweekly.jpg
+        url: http://rubyweekly.com
+      - title: Arkency Blog
+        description: 
+        screenshot_img_src: screenshots/ruby/arkency.jpg
+        url: http://blog.arkency.com
+      - title: chodounsky
+        description: 
+        screenshot_img_src: screenshots/ruby/chodounsky.jpg
+        url: http://chodounsky.net
+
   node:
     title: Node Resources
     description: TODO
@@ -43,5 +84,5 @@ subdomains:
     resources:
       - title: Node
         description: The official NodeJs web site.
-        screenshot_img_src: screenshots/node/nodejs.png
+        screenshot_img_src: screenshots/node/nodejs.jpg
         url: http://nodejs.org
