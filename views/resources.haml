@@ -1,8 +1,30 @@
 !!!
 %html
   %head
-    %link(rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css")
+    %link{rel: "stylesheet", href: "http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css"}
+    %link{rel: "stylesheet", href: "base.css"}
+    %link{rel: "stylesheet", href: "theme.css"}
+    - if @resource["additional_stylesheets"]
+      - @resource["additional_stylesheets"].each do |resource|
+        %link{rel: "stylesheet", href: resource["href"]}
     %title This is the Title in a title tag within the head tag
   %body
-    test
-    = @resource
+    %header
+      .container
+        %h1
+          %img{src: @resource["styling"]["header"]["logo_img_src"]}
+          = @resource["heading"]
+    %section.resources
+      .container
+        = @resource
+        - @resource["resources"].each do |resource|
+          %a.resource{href: '#'}
+            %img{src: resource["screenshot_img_src"]}
+            %h2
+              = resource["title"]
+            %p
+              = resource["description"]
+            .clear
+    %footer
+      .container
+        TODO

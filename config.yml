@@ -1,13 +1,45 @@
 subdomains:
   ruby:
-    bg_color: red
-    logo_img: public/logos/ruby.png
+    heading: Ruby Resources
+    additional_stylesheets:
+      - href: http://fonts.googleapis.com/css?family=Noto+Sans
+    styling:
+      bg_color: "#ebebe5"
+      text_color: black
+      font_family: "'Noto Sans', 'Helvetica Neue', Helvetica, sans-serif"
+      header:
+        logo_img_src: logos/ruby.png
+        bg_color: white
+        text_color: black
+      resource_block:
+        background_color: "rgba(0,0,0,0.1)"
+        background_hover_color: "rgba(0,0,0,0.2)"
     resources:
       - title: Ruby Lang
-        url: https://www.ruby-lang.org/en/
+        description: The official Ruby web site.
+        screenshot_img_src: screenshots/ruby/ruby-lang.png
+        url: http://www.ruby-lang.org/en/
+      - title: Ruby Rogues
+        description: An awesome weekly podcast discussing everything Ruby related.
+        screenshot_img_src: screenshots/ruby/ruby-rogues.png
+        url: http://rubyrogues.com/
   node:
-    bg_color: green
-    logo_img: public/logos/node.png
+    heading: Node Resources
+    additional_stylesheets:
+      - href: http://fonts.googleapis.com/css?family=Source+Sans+Pro
+    styling:
+      bg_color: "#1d1d1d"
+      text_color: "#ccc"
+      font_family: "'source-sans-pro', sans-serif"
+      header:
+        logo_img_src: logos/node.png
+        bg_color: "#303030"
+        text_color: "#ccc"
+      resource_block:
+        background_color: "rgba(255,255,255,0.1)"
+        background_hover_color: "rgba(255,255,255,0.2)"
     resources:
       - title: Node
+        description: The official NodeJs web site.
+        screenshot_img_src: screenshots/node/nodejs.png
         url: http://nodejs.org

@@ -13,8 +13,29 @@ end
 subdomain do
   get '/' do
     redirect "http://#{ENV["DOMAIN"]}" unless settings.subdomains.has_key? subdomain
-    @resource = settings.subdomains[subdomain].inspect.to_s
+    @resource = settings.subdomains[subdomain]
     haml :resources
+  end
+  get '/theme.css' do
+    @resource = settings.subdomains[subdomain]
+    content_type 'text/css'
+    %W(
+      body {
+        background-color: #{@resource["styling"]["bg_color"]};
+        font-family: #{@resource["styling"]["font_family"]};
+        color: #{@resource["styling"]["text_color"]};
+      }
+      header {
+        background-color: #{@resource["styling"]["header"]["bg_color"]};
+        color: #{@resource["styling"]["header"]["text_color"]};
+      }
+      .resource {
+        background-color: #{@resource["styling"]["resource_block"]["background_color"]};
+      }
+      .resource:hover {
+        background-color: #{@resource["styling"]["resource_block"]["background_hover_color"]};
+      }
+    )
   end
 end
 
