@@ -1,6 +1,7 @@
 subdomains:
   ruby:
-    heading: Ruby Resources
+    title: Ruby Resources
+    description: TODO
     additional_stylesheets:
       - href: http://fonts.googleapis.com/css?family=Noto+Sans
     styling:
@@ -24,7 +25,8 @@ subdomains:
         screenshot_img_src: screenshots/ruby/ruby-rogues.png
         url: http://rubyrogues.com/
   node:
-    heading: Node Resources
+    title: Node Resources
+    description: TODO
     additional_stylesheets:
       - href: http://fonts.googleapis.com/css?family=Source+Sans+Pro
     styling:

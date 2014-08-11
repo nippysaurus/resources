@@ -1,19 +1,21 @@
 !!!
-%html
+%html{lang: 'en'}
   %head
+    %title
+      = @resource["title"]
+    %meta{name: "description", content: @resource["description"]}
     %link{rel: "stylesheet", href: "http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css"}
     %link{rel: "stylesheet", href: "base.css"}
     %link{rel: "stylesheet", href: "theme.css"}
     - if @resource["additional_stylesheets"]
       - @resource["additional_stylesheets"].each do |resource|
         %link{rel: "stylesheet", href: resource["href"]}
-    %title This is the Title in a title tag within the head tag
   %body
     %header
       .container
         %h1
           %img{src: @resource["styling"]["header"]["logo_img_src"]}
-          = @resource["heading"]
+          = @resource["title"]
     %section.resources
       .container
         - @resource["resources"].each do |resource|
