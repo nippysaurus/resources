@@ -43,6 +43,8 @@ header h1 img {
 .resource img {
   float: left;
   margin-right: 15px;
+  width: 200px;
+  height: 150px;
 }
 
 .resource h2 {
