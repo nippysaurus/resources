@@ -40,12 +40,5 @@ subdomain do
 end
 
 get '/' do
-  @resources = settings.subdomains.keys.map do |key|
-    {
-      name: key,
-      url: "http://#{key}.#{ENV["DOMAIN"]}"
-    }
-  end
-
-  haml :index
+  redirect "http://#{settings.subdomains.keys.shuffle.first}.#{ENV["DOMAIN"]}"
 end
