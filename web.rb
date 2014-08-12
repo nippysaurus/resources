@@ -35,9 +35,6 @@ subdomain do
       .resource {
         background-color: #{@resource["styling"]["resource_block"]["background_color"]};
       }
-      .resource:hover {
-        background-color: #{@resource["styling"]["resource_block"]["background_hover_color"]};
-      }
     )
   end
 end

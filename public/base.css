@@ -50,6 +50,10 @@ header h1 img {
 .resource h2 {
   font-size: 20px;
   font-weight: bold;
+}
+
+.resource h2,
+.resource p {
   margin-bottom: 10px;
 }
 

@@ -14,56 +14,79 @@ subdomains:
         text_color: black
       resource_block:
         background_color: "rgba(0,0,0,0.1)"
-        background_hover_color: "rgba(0,0,0,0.2)"
     resources:
       - title: Ruby Lang
+        links:
+          - url: http://www.ruby-lang.org
+            type: site
         description: The official Ruby web site.
         screenshot_img_src: screenshots/ruby/ruby-lang.png
-        url: http://www.ruby-lang.org/en/
       - title: Ruby Rogues
+        links:
+          - url: http://rubyrogues.com
+            type: site
         description: An awesome weekly podcast discussing everything Ruby related.
         screenshot_img_src: screenshots/ruby/ruby-rogues.png
-        url: http://rubyrogues.com/
       - title: rubyflow
+        links:
+          - url: http://www.rubyflow.com
+            type: site
         description: 
         screenshot_img_src: screenshots/ruby/rubyflow.jpg
-        url: http://www.rubyflow.com
       - title: afreshcup
+        links:
+          - url: http://afreshcup.com
+            type: site
         description: 
         screenshot_img_src: screenshots/ruby/afreshcup.jpg
-        url: http://afreshcup.com
       - title: railstips
+        links:
+          - url: http://www.railstips.org
+            type: site
         description: 
         screenshot_img_src: screenshots/ruby/railstips.jpg
-        url: http://www.railstips.org
       - title: planetrubyonrails
+        links:
+          - url: http://planetrubyonrails.com
+            type: site
         description: 
         screenshot_img_src: screenshots/ruby/planetrubyonrails.jpg
-        url: http://planetrubyonrails.com
       - title: ruby5
+        links:
+          - url: http://ruby5.envylabs.com
+            type: site
         description: 
         screenshot_img_src: screenshots/ruby/ruby5.jpg
-        url: http://ruby5.envylabs.com
       - title: greenruby
+        links:
+          - url: http://greenruby.org
+            type: site
         description: 
         screenshot_img_src: screenshots/ruby/greenruby.jpg
-        url: http://greenruby.org/
       - title: Monkey and Crow
+        links:
+          - url: http://monkeyandcrow.com
+            type: site
         description: 
         screenshot_img_src: screenshots/ruby/monkeyandcrow.jpg
-        url: http://monkeyandcrow.com
       - title: Ruby Weekly
+        links:
+          - url: http://rubyweekly.com
+            type: site
         description: 
         screenshot_img_src: screenshots/ruby/rubyweekly.jpg
-        url: http://rubyweekly.com
       - title: Arkency Blog
+        links:
+          - url: http://blog.arkency.com
+            type: site
         description: 
         screenshot_img_src: screenshots/ruby/arkency.jpg
-        url: http://blog.arkency.com
       - title: chodounsky
+        links:
+          - url: http://chodounsky.net
+            type: site
         description: 
         screenshot_img_src: screenshots/ruby/chodounsky.jpg
-        url: http://chodounsky.net
 
   node:
     title: Node Resources
@@ -80,9 +103,10 @@ subdomains:
         text_color: "#ccc"
       resource_block:
         background_color: "rgba(255,255,255,0.1)"
-        background_hover_color: "rgba(255,255,255,0.2)"
     resources:
       - title: Node
+        links:
+          - url: http://nodejs.org
+            type: site
         description: The official NodeJs web site.
         screenshot_img_src: screenshots/node/nodejs.jpg
-        url: http://nodejs.org
