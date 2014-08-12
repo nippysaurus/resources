@@ -24,68 +24,68 @@ subdomains:
       - title: Ruby Rogues
         links:
           - url: http://rubyrogues.com
-            type: site
+            type: podcast
         description: An awesome weekly podcast discussing everything Ruby related.
         screenshot_img_src: screenshots/ruby/ruby-rogues.png
-      - title: rubyflow
+      - title: RubyFlow
         links:
           - url: http://www.rubyflow.com
-            type: site
+            type: blog
         description: 
         screenshot_img_src: screenshots/ruby/rubyflow.jpg
-      - title: afreshcup
+      - title: A Fresh Cup
         links:
           - url: http://afreshcup.com
-            type: site
+            type: blog
         description: 
         screenshot_img_src: screenshots/ruby/afreshcup.jpg
-      - title: railstips
+      - title: RailsTips
         links:
           - url: http://www.railstips.org
-            type: site
+            type: blog
         description: 
         screenshot_img_src: screenshots/ruby/railstips.jpg
-      - title: planetrubyonrails
+      - title: PlanetRubyOnRails
         links:
           - url: http://planetrubyonrails.com
-            type: site
+            type: blog
         description: 
         screenshot_img_src: screenshots/ruby/planetrubyonrails.jpg
-      - title: ruby5
+      - title: Ruby5
         links:
           - url: http://ruby5.envylabs.com
-            type: site
+            type: podcast
         description: 
         screenshot_img_src: screenshots/ruby/ruby5.jpg
-      - title: greenruby
+      - title: GreenRuby
         links:
           - url: http://greenruby.org
-            type: site
+            type: newsletter
         description: 
         screenshot_img_src: screenshots/ruby/greenruby.jpg
       - title: Monkey and Crow
         links:
           - url: http://monkeyandcrow.com
-            type: site
+            type: blog
         description: 
         screenshot_img_src: screenshots/ruby/monkeyandcrow.jpg
       - title: Ruby Weekly
         links:
           - url: http://rubyweekly.com
-            type: site
+            type: newsletter
         description: 
         screenshot_img_src: screenshots/ruby/rubyweekly.jpg
       - title: Arkency Blog
         links:
           - url: http://blog.arkency.com
-            type: site
+            type: blog
         description: 
         screenshot_img_src: screenshots/ruby/arkency.jpg
-      - title: chodounsky
+      - title: Jakub Chodounský
         links:
           - url: http://chodounsky.net
-            type: site
-        description: 
+            type: blog
+        description: "Jakub's blog ..."
         screenshot_img_src: screenshots/ruby/chodounsky.jpg
 
   node:
