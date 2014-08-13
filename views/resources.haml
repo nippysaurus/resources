@@ -24,7 +24,7 @@
             %img{src: resource["screenshot_img_src"]}
             %h2
               = resource["title"]
-            .links
+            %p.links
               - resource["links"].each do |link|
                 %a.link{href: link["url"]}
                   = link["url"]
