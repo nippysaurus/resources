@@ -19,7 +19,7 @@ subdomains:
         links:
           - url: http://www.ruby-lang.org
             type: site
-        description: The official Ruby web site.
+        description: The canonical Ruby resource. Home of the Ruby language documentation, as well as a wealth of links to news sources, libraries, and user groups.
         screenshot_img_src: screenshots/ruby/ruby-lang.png
       - title: Ruby On Rails
         links:
@@ -27,19 +27,25 @@ subdomains:
             type: site
           - url: http://weblog.rubyonrails.org
             type: blog
-        description: There is a good chance that you are using this framework.
+        description: There is a good chance that you were introduced to Ruby through Ruby on Rails, a popular web framework.
         screenshot_img_src: screenshots/ruby/rails.jpg
+      - title: Try Ruby
+        links:
+          - url: http://tryruby.org
+            type: site
+        description: The single best place to try ruby for the first time. You can take lessons and type code right in your browser.
+        screenshot_img_src: screenshots/ruby/try-ruby.jpg
       - title: CODETUNES
         links:
           - url: http://codetunes.com
             type: blog
-        description: 
+        description: The blog of Monterail, a rails dev shop in Poland. They frequently post quality content, and I love the simplicity of the site.
         screenshot_img_src: screenshots/ruby/codetunes.jpg
       - title: Ruby Rogues
         links:
           - url: http://rubyrogues.com
             type: podcast
-        description: An awesome weekly podcast discussing everything Ruby related.
+        description: An awesome weekly podcast discussing anything Ruby related. These guys do an awesome job transcribing each episode into text, as well as providing links to everything mentioned on the show.
         screenshot_img_src: screenshots/ruby/ruby-rogues.png
       - title: Ruby Inside
         links:
