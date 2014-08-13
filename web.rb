@@ -3,6 +3,7 @@ require 'sinatra/config_file'
 require 'sinatra/subdomain'
 require 'haml'
 require 'digest/md5'
+require 'uri'
 
 config_file 'config.yml'
 
@@ -21,8 +22,7 @@ subdomain do
   end
   get '/theme.css' do
     @resource = settings.subdomains[subdomain]
-    content_type 'text/css'
-    %W(
+    css = %(
       body {
         background-color: #{@resource["styling"]["bg_color"]};
         font-family: #{@resource["styling"]["font_family"]};
@@ -35,7 +35,15 @@ subdomain do
       .resource {
         background-color: #{@resource["styling"]["resource_block"]["background_color"]};
       }
+      .resource .links .link a {
+        color: #{@resource["styling"]["resource_block"]["link_text_color"]};
+        border-bottom: 1px dashed #{@resource["styling"]["resource_block"]["link_text_color"]};
+      }
     )
+    content_type 'text/css'
+    expires (60*60*24), :public, :must_revalidate
+    etag Digest::MD5.hexdigest(css)
+    css
   end
 end
 

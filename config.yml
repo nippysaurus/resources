@@ -14,6 +14,7 @@ subdomains:
         text_color: black
       resource_block:
         background_color: "rgba(0,0,0,0.1)"
+        link_text_color: "#8d2618"
     resources:
       - title: Ruby Lang
         links:
@@ -49,7 +50,7 @@ subdomains:
         screenshot_img_src: screenshots/ruby/ruby-rogues.png
       - title: Ruby Inside
         links:
-          - url: http://www.rubyinside.com
+          - url: http://rubyinside.com
             type: blog
         description: The blog has not been updated since July 2013 but their newsletter and twitter account still seem to alive and kicking.
         screenshot_img_src: screenshots/ruby/ruby-inside.jpg
@@ -61,13 +62,13 @@ subdomains:
         screenshot_img_src: screenshots/ruby/planey-ruby.jpg
       - title: Planet RubyOnRails
         links:
-          - url: http://www.planetrubyonrails.org
+          - url: http://planetrubyonrails.org
             type: blog
         description: 
         screenshot_img_src: screenshots/ruby/planey-ruby-on-rails.jpg
       - title: Destroy All Software
         links:
-          - url: http://www.destroyallsoftware.com
+          - url: http://destroyallsoftware.com
             type: screencasts
         description: 
         screenshot_img_src: screenshots/ruby/destroy-all-software.jpg
@@ -85,7 +86,7 @@ subdomains:
         screenshot_img_src: screenshots/ruby/rails-casts.jpg
       - title: RubyFlow
         links:
-          - url: http://www.rubyflow.com
+          - url: http://rubyflow.com
             type: blog
         description: 
         screenshot_img_src: screenshots/ruby/rubyflow.jpg
@@ -97,7 +98,7 @@ subdomains:
         screenshot_img_src: screenshots/ruby/afreshcup.jpg
       - title: RailsTips
         links:
-          - url: http://www.railstips.org
+          - url: http://railstips.org
             type: blog
         description: 
         screenshot_img_src: screenshots/ruby/railstips.jpg
@@ -159,6 +160,7 @@ subdomains:
         text_color: "#ccc"
       resource_block:
         background_color: "rgba(255,255,255,0.1)"
+        link_text_color: "#80bd15"
     resources:
       - title: Node
         links:

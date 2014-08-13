@@ -24,11 +24,13 @@
             %img{src: resource["screenshot_img_src"]}
             %h2
               = resource["title"]
-            %p.links
-              - resource["links"].each do |link|
-                %a.link{href: link["url"]}
-                  = link["url"]
-                = "(#{link["type"]})"
+            - if resource["links"].any?
+              %ul.links
+                - resource["links"].each do |link|
+                  %li.link
+                    %a{href: link["url"]}
+                      = "#{URI(link["url"]).hostname}#{URI(link["url"]).path}"
+                    //= "(#{link["type"]})"
             %p
               = resource["description"]
             .clear
