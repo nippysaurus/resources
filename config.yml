@@ -21,12 +21,62 @@ subdomains:
             type: site
         description: The official Ruby web site.
         screenshot_img_src: screenshots/ruby/ruby-lang.png
+      - title: Ruby On Rails
+        links:
+          - url: http://rubyonrails.org
+            type: site
+          - url: http://weblog.rubyonrails.org
+            type: blog
+        description: There is a good chance that you are using this framework.
+        screenshot_img_src: screenshots/ruby/rails.jpg
+      - title: CODETUNES
+        links:
+          - url: http://codetunes.com
+            type: blog
+        description: 
+        screenshot_img_src: screenshots/ruby/codetunes.jpg
       - title: Ruby Rogues
         links:
           - url: http://rubyrogues.com
             type: podcast
         description: An awesome weekly podcast discussing everything Ruby related.
         screenshot_img_src: screenshots/ruby/ruby-rogues.png
+      - title: Ruby Inside
+        links:
+          - url: http://www.rubyinside.com
+            type: blog
+        description: The blog has not been updated since July 2013 but their newsletter and twitter account still seem to alive and kicking.
+        screenshot_img_src: screenshots/ruby/ruby-inside.jpg
+      - title: Planet Ruby
+        links:
+          - url: http://planetruby.0x42.net
+            type: blog
+        description: 
+        screenshot_img_src: screenshots/ruby/planey-ruby.jpg
+      - title: Planet RubyOnRails
+        links:
+          - url: http://www.planetrubyonrails.org
+            type: blog
+        description: 
+        screenshot_img_src: screenshots/ruby/planey-ruby-on-rails.jpg
+      - title: Destroy All Software
+        links:
+          - url: http://www.destroyallsoftware.com
+            type: screencasts
+        description: 
+        screenshot_img_src: screenshots/ruby/destroy-all-software.jpg
+      - title: Ruby Corner
+        links:
+          - url: http://rubycorner.com
+            type: blog
+        description: 
+        screenshot_img_src: screenshots/ruby/ruby-corner.jpg
+      - title: RailsCasts
+        links:
+          - url: http://railscasts.com
+            type: screencasts
+        description: 
+        screenshot_img_src: screenshots/ruby/rails-casts.jpg
       - title: RubyFlow
         links:
           - url: http://www.rubyflow.com
