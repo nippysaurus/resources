@@ -168,3 +168,26 @@ subdomains:
             type: site
         description: The official NodeJs web site.
         screenshot_img_src: screenshots/node/nodejs.jpg
+  scala:
+      title: Scala Resources
+      description: TODO
+      additional_stylesheets:
+        - href: http://fonts.googleapis.com/css?family=Montserrat
+      styling:
+        bg_color: "#002B36"
+        text_color: "#fff"
+        font_family: "'Montserrat', sans-serif"
+        header:
+          logo_img_src: logos/scala.png
+          bg_color: "#073642"
+          text_color: "#fff"
+        resource_block:
+          background_color: "#174753"
+          link_text_color: "rgba(255, 255, 255, 0.65);"
+      resources:
+        - title: Scala
+          links:
+            - url: http://scala-lang.org
+              type: site
+          description: The official Scala web site.
+          screenshot_img_src: screenshots/scala/scala.jpg
