@@ -144,7 +144,12 @@ subdomains:
             type: blog
         description: "Jakub's blog ..."
         screenshot_img_src: screenshots/ruby/chodounsky.jpg
-
+      - title: Leopard Blog
+        links:
+          - url: http://leopard.in.ua
+            type: blog
+        description: "Not exclusively Ruby or Ruby on Rails, but a decent blog covering web technologies."
+        screenshot_img_src: screenshots/ruby/leopard-blog.jpg
   node:
     title: Node Resources
     description: TODO
