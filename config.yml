@@ -54,6 +54,12 @@ subdomains:
             type: blog
         description: The blog has not been updated since July 2013 but their newsletter and twitter account still seem to alive and kicking.
         screenshot_img_src: screenshots/ruby/ruby-inside.jpg
+      - title: RUBYLOVE
+        links:
+          - url: http://rubylove.io
+            type: blog
+        description: "This seems to be the personal blog of someone who is passionate about ruby. The content seems to be of good quality, covering code as well as broader topics such as TDD and OOP."
+        screenshot_img_src: screenshots/ruby/ruby-love.jpg
       - title: Planet Ruby
         links:
           - url: http://planetruby.0x42.net
