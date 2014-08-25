@@ -59,13 +59,13 @@ subdomains:
           - url: http://planetruby.0x42.net
             type: blog
         description: 
-        screenshot_img_src: screenshots/ruby/planey-ruby.jpg
+        screenshot_img_src: screenshots/ruby/planet-ruby.jpg
       - title: Planet RubyOnRails
         links:
           - url: http://planetrubyonrails.org
             type: blog
         description: 
-        screenshot_img_src: screenshots/ruby/planey-ruby-on-rails.jpg
+        screenshot_img_src: screenshots/ruby/planet-ruby-on-rails.jpg
       - title: Destroy All Software
         links:
           - url: http://destroyallsoftware.com
