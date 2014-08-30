@@ -48,107 +48,110 @@ subdomains:
             type: podcast
         description: An awesome weekly podcast discussing anything Ruby related. These guys do an awesome job transcribing each episode into text, as well as providing links to everything mentioned on the show.
         screenshot_img_src: screenshots/ruby/ruby-rogues.png
+      - title: Destroy All Software
+        links:
+          - url: http://destroyallsoftware.com
+            type: screencasts
+        description: Destroy all software is a collection videos pertaining to software development, mostly rails. Access to the material is not free but well worth the money for an experienced developer. The content is no longer updated since the author has retired, but the content has a timeless quality which will keep it relevant for years to come.
+        screenshot_img_src: screenshots/ruby/destroy-all-software.jpg
       - title: Ruby Inside
         links:
           - url: http://rubyinside.com
             type: blog
         description: The blog has not been updated since July 2013 but their newsletter and twitter account still seem to alive and kicking.
         screenshot_img_src: screenshots/ruby/ruby-inside.jpg
+      - title: RailsCasts
+        links:
+          - url: http://railscasts.com
+            type: screencasts
+        description: A rather large collection of Ruby on Rails screencasts covering pretty much any topic you can think of. Some of the content is free, but most of the more advanced and useful topics require a monthly subscription.
+        screenshot_img_src: screenshots/ruby/rails-casts.jpg
       - title: RUBYLOVE
         links:
           - url: http://rubylove.io
             type: blog
         description: "This seems to be the personal blog of someone who is passionate about ruby. The content seems to be of good quality, covering code as well as broader topics such as TDD and OOP."
         screenshot_img_src: screenshots/ruby/ruby-love.jpg
-      - title: Planet Ruby
-        links:
-          - url: http://planetruby.0x42.net
-            type: blog
-        description: 
-        screenshot_img_src: screenshots/ruby/planet-ruby.jpg
-      - title: Planet RubyOnRails
-        links:
-          - url: http://planetrubyonrails.org
-            type: blog
-        description: 
-        screenshot_img_src: screenshots/ruby/planet-ruby-on-rails.jpg
-      - title: Destroy All Software
-        links:
-          - url: http://destroyallsoftware.com
-            type: screencasts
-        description: 
-        screenshot_img_src: screenshots/ruby/destroy-all-software.jpg
+      # NOTE: Planet Ruby is a syndicate of other blogs, we do not really want these.
+      # - title: Planet Ruby
+      #   links:
+      #     - url: http://planetruby.0x42.net
+      #       type: blog
+      #   description: Periodic posts linking to external resources or posts.
+      #   screenshot_img_src: screenshots/ruby/planet-ruby.jpg
+      # NOTE: I have excluded this site because it just sucks. It is very poorly written and doesnt actually seem to have much to do with ruby.
+      #- title: Planet RubyOnRails
+      #  links:
+      #    - url: http://planetrubyonrails.org
+      #      type: blog
+      #  description: Despite the URL and name of this site it does not have much to do with rails, nor does it seem to be updated very frequently. However I have recorded it here for posterity.
+      #  screenshot_img_src: screenshots/ruby/planet-ruby-on-rails.jpg
       - title: Ruby Corner
         links:
           - url: http://rubycorner.com
             type: blog
-        description: 
+        description: Ruby Corner is a collection of posts from other blogs. You can sign up and have content from your blog automatically added to their home page.
         screenshot_img_src: screenshots/ruby/ruby-corner.jpg
-      - title: RailsCasts
-        links:
-          - url: http://railscasts.com
-            type: screencasts
-        description: 
-        screenshot_img_src: screenshots/ruby/rails-casts.jpg
       - title: RubyFlow
         links:
           - url: http://rubyflow.com
             type: blog
-        description: 
+        description: RubyFlow is a group blog who summarise other posts and provide a link to the original content. The site is updated very frequently (a few posts every day) and the posts are usually quite good.
         screenshot_img_src: screenshots/ruby/rubyflow.jpg
       - title: A Fresh Cup
         links:
           - url: http://afreshcup.com
             type: blog
-        description: 
+        description: "A Fresh Cup is Mike Gunderloy's blog where he posts about Ruby on Rails and other software related topics. Although as far back as I can see he has been posting a series called 'Double Shot' (on a semi-daily basis) which consist of the most interesting links and resources he has come accross on that day"
         screenshot_img_src: screenshots/ruby/afreshcup.jpg
       - title: RailsTips
         links:
           - url: http://railstips.org
             type: blog
-        description: 
+        description: The blog of John Nunemaker, who posts about Ruby and Ruby on Rails related topics. Unfortunately nothing has been posted since Feb 2014.
         screenshot_img_src: screenshots/ruby/railstips.jpg
-      - title: PlanetRubyOnRails
-        links:
-          - url: http://planetrubyonrails.com
-            type: blog
-        description: 
-        screenshot_img_src: screenshots/ruby/planetrubyonrails.jpg
+      # NOTE: Planet Ruby On Rails is a syndicate of other blogs, we do not really want these.
+      #- title: PlanetRubyOnRails
+      #  links:
+      #    - url: http://planetrubyonrails.com
+      #      type: blog
+      #  description: 
+      #  screenshot_img_src: screenshots/ruby/planetrubyonrails.jpg
       - title: Ruby5
         links:
           - url: http://ruby5.envylabs.com
             type: podcast
-        description: 
+        description: A periodic Ruby and Ruby on Rails podcast.
         screenshot_img_src: screenshots/ruby/ruby5.jpg
       - title: GreenRuby
         links:
           - url: http://greenruby.org
             type: newsletter
-        description: 
+        description: A weekly newsletter. Always a lot of really useful and intesting content.
         screenshot_img_src: screenshots/ruby/greenruby.jpg
       - title: Monkey and Crow
         links:
           - url: http://monkeyandcrow.com
             type: blog
-        description: 
+        description: "Adam Sanderson's blog where he covers a wide range of Ruby and Ruby on Rails topics."
         screenshot_img_src: screenshots/ruby/monkeyandcrow.jpg
       - title: Ruby Weekly
         links:
           - url: http://rubyweekly.com
             type: newsletter
-        description: 
+        description: A free, once–weekly e-mail round-up of Ruby news and articles.
         screenshot_img_src: screenshots/ruby/rubyweekly.jpg
       - title: Arkency Blog
         links:
           - url: http://blog.arkency.com
             type: blog
-        description: 
+        description: A frequently updated blog containing original content.
         screenshot_img_src: screenshots/ruby/arkency.jpg
       - title: Jakub Chodounský
         links:
           - url: http://chodounsky.net
             type: blog
-        description: "Jakub's blog ..."
+        description: "Jakub's blog contains a mix of original content and digests of useful external links."
         screenshot_img_src: screenshots/ruby/chodounsky.jpg
       - title: Leopard Blog
         links:
@@ -156,6 +159,13 @@ subdomains:
             type: blog
         description: "Not exclusively Ruby or Ruby on Rails, but a decent blog covering web technologies."
         screenshot_img_src: screenshots/ruby/leopard-blog.jpg
+      # NOTE: Not entirely Ruby related and not updated very often at all.
+      #- title: Polishing Ruby
+      #  links:
+      #    - url: http://blog.zenspider.com
+      #      type: blog
+      #  description: 
+      #  screenshot_img_src: ''
   node:
     title: Node Resources
     description: TODO
