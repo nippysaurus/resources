@@ -23,8 +23,11 @@ subdomain do
   get '/theme.css' do
     @resource = settings.subdomains[subdomain]
     css = %(
+      html,
       body {
         background-color: #{@resource["styling"]["bg_color"]};
+      }
+      body {
         font-family: #{@resource["styling"]["font_family"]};
         color: #{@resource["styling"]["text_color"]};
       }
