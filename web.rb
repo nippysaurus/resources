@@ -48,5 +48,15 @@ subdomain do
 end
 
 get '/' do
-  redirect "http://#{settings.subdomains.keys.shuffle.first}.#{ENV["DOMAIN"]}"
+  @resources = Hash.new
+
+  settings.subdomains.each do |k,v|
+    @resources[k] = {
+      href: "//#{k}.#{ENV["DOMAIN"]}",
+      logo_img_src: v["styling"]["header"]["logo_img_src"],
+      color: v["styling"]["header"]["bg_color"]
+    }
+  end
+
+  haml :index
 end

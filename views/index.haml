@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title
+      Resources
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
+    %link{rel: "stylesheet", href: "//yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css"}
+    %link{rel: "stylesheet", href: "base.css"}
+    %script{src: "//code.jquery.com/jquery-1.11.0.min.js"}
+  %body
+    %ul.available-resource-links
+      - @resources.each do |resource_type,resource|
+        %li
+          %a{href: resource[:href]}
+            %img{src: resource[:logo_img_src]}
